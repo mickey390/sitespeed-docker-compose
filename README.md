@@ -13,25 +13,24 @@ https://www.docker.com/products/docker-toolbox
 # 構築手順
 
 ## 編集
+```
 [local] vi docker-compose.yml
-
+```
 ## 構築
 ```
 [local] docker-compose up
 [local] docker-compose up -d
 ```
-
 ## 確認
-
 ### graphite
-http://192.168.99.100:8080
+http://192.168.99.100:8080  
 guest/guest
 
 ### grafana
 http://192.168.99.100:3000
 
 ## 計測
-
+まだ
 ## 停止
 ```
 [local] docker-compose stop
